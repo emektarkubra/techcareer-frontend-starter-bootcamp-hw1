@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Saira+Extra+Condensed:wght@500&display=swap");
+
+h2 {
+  margin-bottom: 3rem !important;
+  text-transform: uppercase;
+  font-size: calc(1.475rem + 2.7vw) !important;
+  font-weight: 700 !important;
+  line-height: 1.2;
+  color: #343a40;
+  font-family: "Saira Extra Condensed", sans-serif !important;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem !important;
+}
+
+.dev-icons {
+  font-size: 3.5rem;
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: #6c757d;
+  padding-left: 0;
+}
+
+.list-inline-item {
+  margin-right: 0.5rem;
+  display: inline-block;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 1rem;
+  padding-left: 0;
+  font-size: 1rem;
+  font-weight: 500 !important;
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  position: relative;
+  display: list-item;
+  line-height: 1.2;
+}
+
+.fa-li {
+  text-align: center;
+  padding: 0.5rem;
+}

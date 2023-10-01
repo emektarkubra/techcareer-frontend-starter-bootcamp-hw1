@@ -3,6 +3,7 @@ import "./style/pageLayout.scss";
 import About from "./About";
 import Experience from "./Experience";
 import Education from "./Education";
+import Skills from "./Skills";
 
 export default function PageLayout() {
   return (
@@ -12,6 +13,8 @@ export default function PageLayout() {
       <Experience />
       <hr />
       <Education />
+      <hr />
+      <Skills />
       <hr />
     </div>
   );
