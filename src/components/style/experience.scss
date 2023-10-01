@@ -1,13 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira+Extra+Condensed:wght@500&display=swap');
 
 h2 {
   font-size: calc(1.475rem + 2.7vw);
   margin-bottom: 3rem !important;
   text-transform: uppercase;
   margin-top: 0;
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Saira Extra Condensed', sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -16,9 +14,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   font-size: calc(1.725rem + 5.7vw);
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Saira Extra Condensed', sans-serif;
   margin: 0;
   padding: 0;
   margin-bottom: 1rem !important;
@@ -48,5 +44,6 @@ p {
 
 .d-flex {
   display: flex;
+  justify-content: space-between;
   margin-bottom: 3rem;
 }
