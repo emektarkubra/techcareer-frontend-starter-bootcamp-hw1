@@ -4,6 +4,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
+import Interests from "./Interests";
 
 export default function PageLayout() {
   return (
@@ -15,6 +16,8 @@ export default function PageLayout() {
       <Education />
       <hr />
       <Skills />
+      <hr />
+      <Interests />
       <hr />
     </div>
   );
