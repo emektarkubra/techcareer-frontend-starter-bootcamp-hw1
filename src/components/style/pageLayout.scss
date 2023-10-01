@@ -1,16 +1,14 @@
 .container-fluid {
-  position: fixed;
-  left: 17rem;
+  margin-left: 270px;
 }
 
 hr {
   margin: 0;
+  opacity: 0.25;
 }
 
 @media (max-width: 991px) {
   .container-fluid {
-    position: absolute;
-    left: 0;
+    margin-left: 0;
   }
-
 }
