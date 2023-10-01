@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Roboto:wght@700&family=Saira+Extra+Condensed:wght@700&display=swap");
 
-
-$primary-font-family : "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
-"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-"Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$primary-font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 .resume-section {
   min-height: 74vh;
@@ -27,6 +26,7 @@ $primary-font-family : "Saira Extra Condensed", -apple-system, BlinkMacSystemFon
   flex-wrap: wrap;
   font-size: calc(1.725rem + 5.7vw);
   font-family: $primary-font-family;
+  font-weight: 700;
 }
 
 h1 {
@@ -81,6 +81,6 @@ a {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 5rem;
-
+    margin-top: 4rem;
   }
 }

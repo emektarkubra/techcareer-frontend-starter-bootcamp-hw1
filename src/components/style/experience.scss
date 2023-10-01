@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira+Extra+Condensed:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Saira+Extra+Condensed:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
 
 h2 {
   font-size: calc(1.475rem + 2.7vw);
   margin-bottom: 3rem !important;
   text-transform: uppercase;
   margin-top: 0;
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: "Saira Extra Condensed", sans-serif;
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -14,10 +15,9 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   font-size: calc(1.725rem + 5.7vw);
-  font-family: 'Saira Extra Condensed', sans-serif;
+  font-family: "Saira Extra Condensed", sans-serif;
   margin: 0;
   padding: 0;
-  margin-bottom: 1rem !important;
   color: #343a40;
   font-size: calc(1.325rem + 0.9vw) !important;
   text-transform: uppercase;
@@ -27,12 +27,13 @@ h3 {
   text-transform: uppercase;
   font-weight: 500 !important;
   font-size: 1.5rem;
+  margin-top: 0.5rem !important;
   margin-bottom: 3rem !important;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-p {
+.flex-grow-1 > p {
   font-family: "Mulish", sans-serif;
   margin-bottom: 1rem;
   line-height: 1.5;
